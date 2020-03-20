@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5c31fb8743.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat|Kakao clone</title>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="topbar__column">
+        <span class="topbar__clock">16:03</span>
+      </div>
+      <div class="topbar__column">
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="topbar__battery-level">50%</span>
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </div>
+    <header class="chat">
+        <div class="header__chat-column">
+      <a href="index.html" class="setting__back-btn">
+        <i class="fas fa-arrow-left fa-2x"></i>
+      </a>
+      <h2 class="chat-title">Prince Adam</h2>
+        </div>
+       <div class="header__chat-column">
+        <span class="header__icons">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icons">
+          <i class="fas fa-bars"></i>
+        </span>
+       </div>
+    </header>
+    <section class="Chat">
+        <span class="chat__timestamp">Friday, March 20,2020</span>
+      <ul class="chat__list">
+        <li class="chat__chat">
+            <image class="chat-avatar g-avatar" src="images/beast.jpg" ></image>
+            <div class="incoming-msg">
+              <span class="msg-username">Prince Adam</span>
+              <span class="msg-content">Let's have a diner together!</span>
+            </div>
+            <span class="msg-timestamp">14:00</span>
+          </div>
+        </li>
+          <li class="chat__chat">
+            <span class="msg-timestamp">14:03</span>
+            <div class="outgoing-msg">
+              <span class="msg-content">Okidoki. Pizza?</span>
+            </div>           
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div class="chat__msg-bar">
+        <span class="plus-icon">
+            <i class="far fa-plus-square"></i>
+        </span>
+        <input type="text" placeholder="add message">
+          <span class="emotion-icon">
+            <i class="far fa-plus-square"></i>
+          </span>
+          <span class="mic-icon">
+            <i class="fas fa-microphone"></i>
+          </span>
+    </div>
+  </body>
+</html>
