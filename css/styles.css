@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "topbar.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #1a1a1a;
+  font-family: poppins;
+}
