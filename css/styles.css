@@ -1,10 +1,11 @@
 @import "reset.css";
 @import "topbar.css";
 @import "header.css";
+@import "nav-bar.css";
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
 
 body {
-  background-color: white;
+  background-color: #eeedef;
   padding: 10px 20px;
   color: #1a1a1a;
   font-family: poppins;
