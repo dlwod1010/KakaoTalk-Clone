@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/5c31fb8743.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends|Kakao clone</title>
   </head>
   <body>
@@ -37,65 +37,81 @@
       </div>
     </header>
     <main class="friends">
-      <section class="friends__section profile">
-        <div class="friends__friend friend-lg">
-         <div class="friend__column">
+      <div class="friends__friend friend">
+        <div class="friend__column">
           <image
             class="friend__avatar g-avatar"
-            src="images/aladdin.png"></image>
+            src="images/aladdin.png"
+          ></image>
           <div class="friend__content">
             <span class="friend-name">Aladdin</span>
             <span class="friend-status">Being a prince...</span>
+          </div>
         </div>
+      </div>
+
+      <section class="friends__plus">
+        <h5 class="plus-title">Plus Friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <image class="friend__avatar" src="images/plus.png"></image>
+            <span class="friend-name">Plus Friend</span>
           </div>
-        </section>
-        <section class="friends__section plus">
-         <h5 class="plus-title">Plus Friend</h5>
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <image class="friend__avatar g-avatar" src="images/plus.png"></image>
-              <span class="friend-name">Plus Friend</span>
-            </div>
-            <div class="friend__column">
-              <span class="friend-number">1</span>
+          <div class="friend__column">
+            <span class="friend-number">1</span>
+          </div>
+        </div>
+      </section>
+
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <image class="friend__avatar" src="images/jasmine.jpg"></image>
+            <span class="friend-name">Jasmine</span>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Disney</span>
+              <i class="fas fa-play-circle"></i>
             </div>
           </div>
-        </section>
-        <ul class="friends__list">  
-            <h5 class="friends__title">Friends 14</h5>          
-                <li class="friends__friend friend">
-                    <div class="friend__column">
-                        <image class="friend__avatar g-avatar" src="images/jasmine.jpg"></image>
-                        <span class="friend-name">Jasmine</span>
-                    </div>
-                    <div class="friend__column">
-                        <div class="friend__now-listening">
-                          <span>Disney</span>
-                          <i class="fas fa-play-circle"></i>
-                    </div>
-                        </div>
-                </li>
-        </ul>
+        </li>
+
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <image class="friend__avatar" src="images/jasmine.jpg"></image>
+            <span class="friend-name">Jasmine</span>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Disney</span>
+              <i class="fas fa-play-circle"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
-      <ul class="nav__nav-list">
-        <li class="nav-item">
-          <a href="friends.html" class="nav">
-            <i class="fas fa-user"></i>
+      <ul class="nav-list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
           </a>
         </li>
-        <li class="nav-item">
-          <a href="index.html" class="nav">
-            <i class="far fa-comment"></i>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">5</div>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
-        <li class="nav-item">
-          <a href="find.html" class="nav">
+        <li class="nav-list__item">
+          <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
-        <li class="nav-item">
-          <a href="more.html" class="nav">
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
