@@ -1,0 +1,45 @@
+.more .more__btn-list,
+.more__suggetion-list {
+  display: flex;
+  padding: 15px 30px;
+}
+.more .more__btn-list {
+  margin-top: 10px;
+}
+.more .more__btn,
+.more .suggetion__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.more .btn-name {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.more .more__suggetions {
+  padding: 10px 0px;
+  border-top: 1px solid #f4f4f4;
+}
+.more .suggetions-title {
+  font-size: 12px;
+}
+.more .btn-icon i {
+  font-size: 25px;
+}
+.more__suggetions .suggetion__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.more__suggetions .btn-name {
+  opacity: 0.7;
+}
+.more__suggetions .btn-icon i {
+  padding: 8px;
+  background-color: #fadb43;
+  border-radius: 5px;
+  color: #fefdfe;
+}
