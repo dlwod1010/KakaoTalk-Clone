@@ -1,2 +1,2 @@
-# KakaoTalk Clone Version2
+# KakaoTalk Clone 
  Kakaotalk clone
