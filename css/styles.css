@@ -4,15 +4,18 @@
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
-  url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
 
 body {
-  background-color:#EEEDEF;
+  background-color: #eeedef;
   padding: 10px 20px;
   color: #1a1a1a;
   font-family: poppins;
 }
 a {
   color: inherit;
-  text-decoration:none;
+  text-decoration: none;
 }
