@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/5c31fb8743.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat|Kakao clone</title>
   </head>
   <body class="chat__body">
@@ -24,53 +24,53 @@
       </div>
     </div>
     <header class="header">
-        <div class="header__header-column">          
-      <a href="index.html" class="setting__back-btn">
-        <i class="fas fa-arrow-left"></i>
-      </a>      
-      <h1 class="haeder__title">Prince Adam</h1>
-        </div>
-       <div class="header__header-column">
+      <div class="header__header-column">
+        <a href="index.html" class="setting__back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="haeder__title">Prince Adam</h1>
+      </div>
+      <div class="header__header-column">
         <span class="header__icons">
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icons">
           <i class="fas fa-bars"></i>
         </span>
-       </div>
+      </div>
     </header>
     <section class="chat">
-        <span class="chat__timestamp">Friday, March 20,2020</span>
       <ul class="chat__list">
-        <li class="chat__chat friend">
-            <image class="friend__avatar g-avatar" src="images/beast.jpg" ></image>
-            <div class="incoming-msg">
+        <span class="chat__timestamp">Friday, March 20, 2020</span>
+        <li class="chat__chat massage incoming-msg">
+          <div class="msg-container">
+            <image class="chat__avatar" src="images/beast.jpeg"></image>
+            <div class="massage__content">
               <span class="msg-username">Prince Adam</span>
-              <span class="msg-content">Let's have a diner together!</span>
+              <div class="msg-bubble">Let's have a diner together!</div>
             </div>
-            <span class="msg-timestamp">14:00</span>
           </div>
+          <span class="msg-timestamp">14:00</span>
         </li>
-          <li class="chat__chat">
+        <li class="chat__chat massage sent-msg">
+          <div class="msg-container">
             <span class="msg-timestamp">14:03</span>
-            <div class="outgoing-msg">
-              <span class="msg-content">Okidoki. Pizza?</span>
-            </div>           
+            <div class="msg-bubble">Okidoki. Pizza?</div>
           </div>
         </li>
       </ul>
     </section>
     <div class="chat__msg-bar">
-        <span class="msg-bar__icon">
-            <i class="far fa-plus-square"></i>
-        </span>
-        <input type="text" placeholder="add message" />
-        <span class="msg-bar__icon">
-          <i class="far fa-grin-squint"></i>
-        </span>
-        <span class="msg-bar__icon">
-          <i class="fas fa-microphone"></i>
-        </span>
-      </div>
+      <span class="msg-bar__icon">
+        <i class="far fa-plus-square"></i>
+      </span>
+      <input type="text" placeholder="add message" />
+      <span class="msg-bar__icon">
+        <i class="far fa-grin-squint"></i>
+      </span>
+      <span class="msg-bar__icon">
+        <i class="fas fa-microphone"></i>
+      </span>
+    </div>
   </body>
 </html>
