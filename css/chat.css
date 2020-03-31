@@ -17,16 +17,18 @@
 .chat__msg-bar {
   position: fixed;
   bottom: 20px;
-  width: 90%;
-  padding: 10px 20px;
+  left: 0px;
+  right: 0px;
+  margin: 0px 20px;
+  padding: 10px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #5c5bf9;
   align-items: center;
   border-radius: 20px;
 }
 .chat__msg-bar input {
-  width: 80%;
+  width: 75%;
   height: 30px;
   border: none;
 }
@@ -53,8 +55,8 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
 }
 .chat .chat__avatar {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 20px;
   margin-right: 10px;
 }
@@ -74,16 +76,18 @@
 }
 .incoming-msg .msg-bubble {
   background-color: #f5f5f5;
-  padding: 5px 5px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
   font-size: 14px;
   box-shadow: rgba(0, 0, 0, 2) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.5) 0px -6px 16px -6px;
 }
 .sent-msg .msg-bubble {
   background-color: #fd89fc;
-  padding: 5px 5px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
   font-size: 14px;
   box-shadow: rgba(0, 0, 0, 2) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.5) 0px -6px 16px -6px;
