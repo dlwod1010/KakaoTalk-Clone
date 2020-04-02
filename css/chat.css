@@ -24,7 +24,7 @@
 }
 .chat__msg-bar {
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
   left: 0px;
   right: 0px;
   margin: 0px 20px;
