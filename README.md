@@ -1,2 +1,2 @@
 # KakaoTalk Clone 
- Kakaotalk clone
+Cloning Kakaotalk app using HTML and CSS. 
